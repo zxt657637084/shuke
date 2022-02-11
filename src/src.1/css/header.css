@@ -1,0 +1,253 @@
+@charset 'utf-8';
+.nav1 {
+  background-color: #333333;
+  height: 40px;
+}
+.nav1 .middle {
+  width: 1226px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: #b0b0b0;
+  font-size: 12px;
+}
+.nav1 .middle .sep {
+  color: #424242;
+}
+.nav1 .middle li:hover {
+  color: #fff;
+}
+.nav1 .middle .nav1-left {
+  width: 790px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav1 .middle .nav1-left li {
+  cursor: pointer;
+}
+.nav1 .middle .nav1-left .download {
+  position: relative;
+}
+.nav1 .middle .nav1-left .download:hover span {
+  height: 138px;
+}
+.nav1 .middle .nav1-left .download span {
+  width: 134px;
+  height: 0px;
+  background-color: white;
+  position: absolute;
+  top: 29px;
+  left: -42px;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+  box-shadow: 0 1px 2px 1px #dadada;
+  overflow: hidden;
+  transition: 0.3s linear;
+}
+.nav1 .middle .nav1-left .download span img {
+  width: 90px;
+  height: 90px;
+  display: block;
+  margin: 10px auto 10px;
+}
+.nav1 .middle .nav1-right {
+  width: 280px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav1 .middle .nav1-right li > a {
+  color: #b0b0b0;
+}
+.nav1 .middle .nav1-right li > a:hover {
+  color: white;
+}
+.nav1 .middle .nav1-right .shop {
+  width: 115px;
+  margin-left: 15px;
+  height: 40px;
+  background-color: #424242;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav1 .middle .nav1-right .shop:hover .shopping {
+  background: url(../../images/shopping2.png) no-repeat;
+  background-size: 100%;
+}
+.nav1 .middle .nav1-right .shop:hover {
+  background-color: white;
+}
+.nav1 .middle .nav1-right .shop:hover a {
+  color: #ff6700 !important;
+}
+.nav1 .middle .nav1-right .shopping {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../../images/shopping1.png) no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+.dnone {
+  display: none;
+  width: 100%;
+  height: 230px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  top: 140px;
+  z-index: 99999;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.18);
+  border-top: 1px solid #e0e0e0;
+}
+.dnone > ul {
+  width: 1226px;
+  margin: 0 auto;
+  display: flex;
+  overflow: hidden;
+}
+.dnone > ul > li {
+  width: 204px;
+  height: 201px;
+  box-sizing: border-box;
+  padding: 35px 12px 0;
+  text-align: center;
+  line-height: 20px !important;
+  position: relative;
+}
+.dnone > ul > li::before {
+  position: absolute;
+  left: -1px;
+  top: 35px;
+  z-index: 9999999;
+  width: 1px;
+  height: 100px;
+  content: "";
+  background-color: #e0e0e0;
+}
+.dnone > ul > li > a {
+  display: block;
+}
+.dnone > ul > li > a > img {
+  width: 160px;
+  height: 110px;
+}
+.dnone > ul > li > a > p {
+  color: #ff6700;
+}
+.dnone > ul > li > a:hover {
+  color: #333;
+}
+.nav2 {
+  width: 1226px;
+  margin: 0 auto;
+  display: flex;
+  height: 100px;
+}
+.nav2 > img {
+  width: 56px;
+  height: 56px;
+  margin: auto 0;
+}
+.nav2 .null1 {
+  width: 190px !important;
+  height: 100px;
+}
+.nav2 .null2 {
+  width: 120px;
+  height: 100px;
+}
+.nav1-text {
+  width: 590px;
+  display: flex;
+}
+.nav1-text > li > a {
+  display: block;
+  height: 100px;
+  line-height: 100px;
+  color: #333;
+  font-size: 16px;
+}
+.nav1-text > li > a:hover {
+  color: #ff6700;
+}
+.search {
+  display: flex;
+}
+.search #search {
+  width: 230px;
+  height: 48px;
+  margin: auto 0;
+  margin-right: 10px;
+  text-indent: 16px;
+}
+.search span {
+  display: block;
+  width: 48px;
+  height: 50px;
+  border: 1px solid #000;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  top: 24px;
+  right: 11px;
+}
+.search span:hover {
+  background-color: #ff6700;
+  color: white;
+}
+.nav1-text > li:nth-child(1) {
+  width: 102px;
+}
+.nav1-text > li:nth-child(2) {
+  width: 103px;
+}
+.nav1-text > li:nth-child(3) {
+  width: 52px;
+}
+.nav1-text > li:nth-child(4) {
+  width: 68px;
+}
+.nav1-text > li:nth-child(5) {
+  width: 52px;
+}
+.nav1-text > li:nth-child(6) {
+  width: 52px;
+}
+.nav1-text > li:nth-child(7) {
+  width: 68px;
+}
+.nav1-text > li:nth-child(8) {
+  width: 52px;
+}
+.nav1-text > li:nth-child(9) {
+  width: 52px;
+}
+.nav1-text li:nth-child(1):hover .dnone {
+  display: block;
+}
+.nav1-text li:nth-child(2):hover .dnone {
+  display: block;
+}
+.nav1-text li:nth-child(3):hover .dnone {
+  display: block;
+}
+.nav1-text li:nth-child(4):hover .dnone {
+  display: block;
+}
+.nav1-text li:nth-child(5):hover .dnone {
+  display: block;
+}
+.nav1-text li:nth-child(6):hover .dnone {
+  display: block;
+}
+.nav1-text li:nth-child(7):hover .dnone {
+  display: block;
+}
