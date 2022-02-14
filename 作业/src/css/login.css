@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    display: flex;
+}
+.left img{
+    display: block;
+    width: 375px;
+    float: left;
+}
+.right{
+    background-color: rgb(15, 15, 15);
+   flex: 1;
+    height: 100%px;
+    float: right;
+    box-sizing: border-box;
+}
+.top{
+    box-sizing: border-box;
+    height: 80px;
+    overflow: hidden;
+    padding: 20px;
+}
+.top-left{
+    width: 150px;
+    float: left;
+}
+.top p{
+    font-size: 26px;
+    color: #c3c3c3;
+}
+.top-left img{
+    display: block;
+    width: 39.9px;
+    float: left;
+    margin-right: 5px;
+}
+ul{
+    float: right;
+    margin-top: 8px;
+}
+ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #838383;
+    line-height: 40px;
+    cursor: pointer;
+}
+ul li:hover{
+    color: #ed690e;
+}
+.center{
+    height: 661.3px;
+    padding-top: 20px;
+}
+.card{
+    width: 450px;
+    height: 555px;
+    margin: 0 auto;
+    padding: 40px 45px;
+    border-radius: 4px;
+    box-shadow: 0 20px 50px 0 hsl(0deg 0% 64% / 10%);
+    min-width: 450px;
+    box-sizing: border-box;
+    position: relative;
+}
+.card-top{
+    width: 360px;
+    height: 41px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.card-top>a{
+    color: #838383;
+   font-size: 22px;
+   margin-right: 10px;
+}
+.inp1{
+    width: 354px;
+    height: 60px;
+    border-radius: 4px;
+    background: #151515;
+    appearance: none;
+    border: none;
+    font-size: 17px;
+    left: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.card-img{
+    display: block;
+    position: absolute;
+    top: 174px;
+    left: 335px;
+    width: 50px;
+}
+.inp2{
+width: 5%;
+
+}
+.s>span{
+    color: #555555;
+    font-size: 14px;
+}
+.login{
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: default;
+    opacity: .4;
+    color: #fff;
+    background-color: #ff7e29;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.mi-external-url {
+    color: #ff5c00;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+    float: left;
+}
+.mi-link{
+    float: right;
+}
+.login1{
+    width: 360px;
+    height: 40px;
+    position: relative;
+}
+.login11 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    color: #555555;
+    line-height: 40px;
+    position: absolute;
+    top: 43px;
+    left: 123px;
+}
+.bottom{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 462px;
+    left: -6px;
+   text-align: center;
+}
+.bottom img{
+    width: 46px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.footer{
+    text-align: center;
+    font-size: 12px;
+    color: #838383;
+}

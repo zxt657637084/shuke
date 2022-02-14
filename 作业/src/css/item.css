@@ -1,0 +1,313 @@
+.container {
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header{
+    border-bottom: 2px solid #ff6700;
+    height: 102px;
+}
+.header-logo img{
+    display: inline-block;
+    float: left;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.header-logo p{
+    float: left;
+    font-size: 28px;
+    line-height: 48px;
+    margin-top: 30px;
+    color: black;
+}
+.mi-cart .page-main{
+    background-color: #f5f5f5;
+}
+.topbar-info{
+    position: relative;
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+.link{
+    padding: 0 5px;
+    text-align: center;
+    float: left;
+    line-height: 40px;
+}
+.sep{
+    margin: 0;
+    float: left;
+}
+.page-main {
+    padding: 38px 0;
+    background: #f5f5f5;
+}
+.empty-cart-top{
+    height: 273px;
+    padding-left: 558px;
+    margin: 65px 0 130px;
+    background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/cart/cart-empty.png) no-repeat 124px 0;
+    color: #b0b0b0;
+    overflow: hidden;
+}
+.empty-cart-top h2{
+    margin: 70px 0 0 0;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.empty-cart-top p{
+    margin: 0;
+    font-size: 20px;
+    color: #b0b0b0;
+}
+
+.empty-cart-top a{
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 170px;
+    height: 48px;
+    line-height: 48px;
+    background: #ff6700;
+    border-color: #ff6700;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #b0b0b0;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .4s;
+}
+#two{
+    background-color: #f5f5f5;
+    color:#ff6700; ;
+}
+.mi-recommend {
+    margin: 60px 0 0;
+    background-color: #f5f5f5;
+}
+.recommend-title{
+    position: relative;
+    margin: 0;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #757575;
+    border-top: 1px solid #e0e0e0;
+}
+.recommend-title span{
+position: absolute;
+    top: -20px;
+    left: 474px;
+    height: 40px;
+    width: 482px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    background-color: #f5f5f5;
+}
+.recommend-list{
+    margin: 0 0 0 -14px;
+    padding: 0;
+}
+.recommend-item{
+    float: left;
+    width: 234px;
+    height: 300px;
+    padding: 0 20px;
+    margin: 0 0 14px 14px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    background-color: #fff;
+    text-align: center;
+}
+.recommend-item img{
+    display: block;
+    margin: 40px auto 20px;
+    width: 140px;
+    height: 140px;
+}
+.recommend-name{
+    margin: 0 10px 10px;
+    height: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #333;
+    font-size: 14px;
+}
+.recommend-price[data-v-1956af42] {
+    margin-bottom: 10px;
+    color: #ff6700;}
+    .recommend-tips[data-v-1956af42] {
+        position: relative;
+        color: #757575;
+    }   
+.footer-service{
+    padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.site-footer .list-service li {
+    float: left;
+    width: 19.8%;
+    height: 25px;
+    border-left: 1px solid #e0e0e0;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+.site-footer .list-service li svg{
+    font-size: 23px;
+}
+.site-footer .footer-links {
+    padding: 40px 0;
+}
+.site-footer .footer-links .col-links {
+    float: left;
+    width: 160px;
+    margin: 0;
+}
+.site-footer .footer-links .col-links dt {
+    margin: -1px 0 26px;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #424242;
+}
+.site-footer .footer-links .col-links dd {
+    margin: 10px 0 0;
+    font-size: 12px;
+}
+.site-footer .footer-links .col-contact {
+    float: right;
+    width: 251px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+    color: #616161;
+}
+.site-footer .footer-links .col-contact .phone {
+    font-size: 22px;
+    line-height: 1;
+    color: #ff6700;
+    margin: 0 0 5px 0;
+}
+.site-footer .footer-links .col-contact p {
+    margin: 0 0 5px 0;
+    font-size: 12px;
+}
+.btn-line-primary {
+    border-color: #ff6700;
+    background: #fff;
+    color: #ff6700;
+}
+.btn-small {
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+}
+.btn {
+    display: inline-block;
+    width: 158px;
+    height: 38px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #b0b0b0;
+    font-size: 14px;
+    line-height: 38px;
+    text-align: center;
+    color: #b0b0b0;
+    cursor: pointer;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+[class*=iconfont] {
+    font-family: iconfont!important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.site-info .logo {
+    width: 56px;
+    height: 56px;
+    margin-right: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.btn-line-primary {
+    border-color: #ff6700;
+    background: #fff;
+    color: #ff6700;
+}
+.btn-small {
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+}
+.site-info {
+    padding: 30px 0;
+    font-size: 12px;
+    background: #fafafa;
+}
+.site-info .container {
+    position: relative;
+}
+.site-info .info-text {
+    color: #b0b0b0;
+    padding-left: 77px;
+}
+.site-info .info-text p {
+    margin: 0;
+    line-height: 18px;
+}
+.site-info .info-text .sites a {
+    color: #757575;
+}
+.site-info .info-text .sites .sep {
+    margin: 0;
+}
+.site-info .info-text p {
+    margin: 0;
+    line-height: 18px;
+}
+.site-info .info-links {
+    height: 28px;
+    margin: 4px 0 15px;
+}
+.info-links img{
+    width: 85px;
+    height: 28px;
+}
+.info-links{
+    position: relative;
+}
+  /* .info-links .fot7{
+    position: absolute;
+    top: 0;
+    left: 354px;
+    opacity: 0;
+} */
+.site-info .slogan {
+    clear: both;
+    margin: 30px auto 0;
+    width: 100%;
+    height: 19px;
+    background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/slogan2020.png) no-repeat center 0;
+}
+.ir {
+    display: block;
+    text-align: left;
+    text-indent: -9999em;
+    overflow: hidden;
+}
+
